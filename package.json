@@ -1,0 +1,21 @@
+{
+  "name": "band-in-a-tab",
+  "version": "0.1.0",
+  "description": "Play along, learn scales and chords",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node test/*.spec.js",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server"
+  },
+  "author": "= <=>",
+  "license": "ISC",
+  "devDependencies": {
+    "jsx-loader": "^0.13.1",
+    "webpack": "^1.8.9",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "react": "^0.13.2",
+    "react-router": "^0.13.2"
+  }
+}
